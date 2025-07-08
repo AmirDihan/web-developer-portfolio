@@ -1,0 +1,146 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Shared Styles */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+     color: #474747;
+}
+.btn-primary{
+    background: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-center{
+    text-align: center;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+/* header styles */
+.header{
+    background-image: url('/images/developer.png'), url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 230px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 230px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight:600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight:700;
+}
+.banner-profie-pic{
+    width: 584px;
+}
+/* about  */
+.main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+.about{
+    border-radius: 10px;
+    text-align: center;
+    padding: 209px 160px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    gap: 30px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* skill */
+.skill-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 24px;
+}
+.skill-item{
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+main h6{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+}
+/* resume section */
+.resume{
+    margin-top: 130px;
+}
+.resume-container{
+    display: flex;
+    gap: 71px;
+    justify-content: space-between;
+    margin-top: 113px;
+    margin-bottom: 70px;
+}
+.experience{
+    margin-bottom: 60px;
+}
+.experience-sub-title,.experinece-description{
+    color: #757575;
+}
+/* Foooter */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 18px 30px;
+    border: none;
+    border-radius: 5px;
+}
